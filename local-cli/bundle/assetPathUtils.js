@@ -20,7 +20,7 @@ import type {PackagerAsset} from '../../Libraries/Image/AssetRegistry';
 function getAndroidAssetSuffix(scale: number): string {
   switch (scale) {
     case 0.75: return 'ldpi';
-    case 1: return 'mdpi';
+    case 1: return 'mdpi-v4';
     case 1.5: return 'hdpi';
     case 2: return 'xhdpi';
     case 3: return 'xxhdpi';
